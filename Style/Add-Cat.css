@@ -1,0 +1,38 @@
+﻿
+table tr td:first-child input {
+    width:100%!important;
+}
+table tr td input {
+    width:100%!important;
+}
+table tr td select {
+    width:100%!important;
+    -webkit-appearance:listbox;
+    background-image:none;
+    height:39px!important;
+}
+td:nth-child(2)  {
+    width:20%!important;
+}
+td:nth-child(4) ,td:nth-child(5){
+    width:10%!important;
+}
+.tb-background td {
+    text-align: center;
+    padding: 5px 0!important;
+}
+.pad {
+    padding:40px 0 0 0 ;
+}
+table#ContentPlaceHolder1_grdcategoryunits {
+    width:100%!important;
+}
+.up > .col-md-2 {
+   width: 12.666667%!important;
+}
+@media (max-width:1193px) {
+    .up >.col-md-2 , .col-md-10 {
+        width:100%!important;
+    }
+
+}

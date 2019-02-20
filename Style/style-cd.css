@@ -1,0 +1,355 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url("-tPnHq7mmAjcjJRSjsuZGA.ttf");
+}
+body,.campany-info{
+    font-family: myFirstFont;
+}
+input[type="checkbox"],
+input[type="radio"] {
+    width: 25px;
+}
+label{
+    color:#111;
+    width: 13%;
+}
+.contact-form label{
+    width: 7%;
+    text-align: center;
+}
+.input[type="radio"], input[type="checkbox"] {
+    width:24px!important;
+}
+.address-info label{
+    width: 100px;
+}
+.left{
+    float: left;
+    text-align: center;
+}
+.com-info{
+    margin-top:30px;
+}
+.fix-bg{
+    background:#0265C8;
+
+}
+
+h2.title{
+    text-align: center;
+    color: #fff;
+    padding: 10px 0;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    box-shadow: 10px 10px 5px #888888;
+}
+input , select{
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 18px;
+    border: 2px solid #d6d4d4;
+    border-radius: 10px;
+    padding: 5px 0;
+}
+.email-info label , .sms-info label{
+    width: 20%;
+}
+.e-inp{
+    width: 78%;
+    display: inline-block;
+}
+.address-hom1{
+    width: 40%;
+    display: inline-block;
+}
+.company-name {
+    width: 36%;
+    display: inline-block;
+}
+.address-hom{
+    width:40%;
+    display: inline-block;
+}
+.phone{
+    width: 25%;
+    display: inline-block;
+}
+.form-control{
+    -webkit-box-shadow: 0 8px 6px -6px rgba(130, 130, 130, 0.3);
+    -moz-box-shadow: 0 8px 6px -6px rgba(130, 130, 130, 0.3);
+    box-shadow: 0 8px 6px -6px rgba(130, 130, 130, 0.3);
+    border-radius: 10px;
+}
+.form-control:focus{
+    box-shadow: 5px 5px 2px rgba(130, 130, 130, 0.3);
+    border-color: rgb(206, 206, 206);
+}
+input:focus , select:focus{
+    outline: none;
+    border-radius:10px;
+    border: 2px solid #d6d4d4;
+    box-shadow: 5px 5px 2px rgba(130, 130, 130, 0.3);
+}
+.title-info{
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.sms-hav:hover .fix-bg,.mail-hav:hover .fix-bg , .address:hover .fix-bg,
+.contact:hover .fix-bg,.com-info:hover .fix-bg ,.title-hav:hover .fix-bg{
+    background: #FFFFFF;
+    color: #0265C8;
+    border: 2px solid #0265C8;
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -ms-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    transition: all 2s ease-in-out;;
+}
+.com-info .title-info{
+    padding: 45px 0;
+}
+.add-logo{
+    float: left;
+    position: relative;
+    right: 20px;
+}
+.contact , .address{
+    margin: 25px 0px;
+}
+.contact .title-info{
+    padding: 10px 0;
+}
+.contact .title-info p{
+    padding-top: 2px;
+    margin-bottom: 0;
+}
+.address .title-info{
+    padding: 49px 0;
+}
+.mails .title-info{
+    padding: 54px 9px;
+}
+.com-info .title-info p:last-child{
+    font-size: 16px;
+}
+.thumb {
+    height: 75px;
+    border: 1px solid #000;
+    margin: 10px 5px 0 0;
+}
+.submit{
+    width: 100px;
+    margin: auto;
+}
+.submit .btn{
+    font-size: 16px;
+    margin:20px 0;
+    background: #0265C8;
+    border: 1px solid #0265C8;
+    padding: 7px 20px;
+    color:#fff;
+    padding:5px 5px 5px 5px;
+}
+.submit .btn:hover{
+    background: #FFFFFF;
+    color: #0265C8;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;;
+}
+.opacity{
+    display: none;
+}
+.red{
+    color: red;
+    font-size:15px;
+}
+.small{
+    font-size: 13px;
+}
+.list{
+    width:200px;
+    height:100px;
+    border:1px solid #2980b9;
+    display:block;
+    background-repeat:no-repeat;
+    background-size: contain;
+    -ms-background-position:center;
+    background-position-x:center;
+    margin-bottom: 30px;
+}
+.list p{
+    font-size: 22px;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    padding: 25px;
+}
+
+/*animation*/
+#animated-example, #animated-example1,#animated-example2 ,#animated-example3 ,#animated-example4 {
+
+    margin:auto;
+    border-radius: 10px;
+    box-shadow: inset 0 0 7px rgba(0,0,0,0.7);
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes bounceIn {
+    0% {
+        opacity: 0;
+        transform: scale(.3);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.05);
+    }
+
+    70% {
+        transform: scale(.9);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+.pass-w{
+    width: 20% !important;
+}
+.non-padding{
+    padding-right: 0!important;
+    padding-left: 0!important;
+}
+.bounceIn {
+    animation-name: bounceIn;
+}
+/*media*/
+@media (max-width: 1144px) {
+    .left{
+        float: none;
+    }
+    .left-in{
+        float: left!important;
+    }
+}
+@media (max-width: 1144px)and (min-width: 992px){
+    .company-name{
+        width: 33% !important;
+    }
+}
+@media (max-width:1319px) {
+    label {
+        width:85px;
+    }
+}
+@media (max-width:1296px) {
+    .company-name {
+        width:35%!important;
+    }
+}
+@media (max-width:1233px) {
+    .company-name {
+        width:34%!important;
+    }
+}
+@media (max-width:1178px) {
+    .company-name {
+        width:33%!important;
+    }
+}
+@media (max-width:1142px) {
+    .company-name {
+        width:32%!important;
+    }
+}
+@media (max-width:1100px) {
+    .company-name {
+        width:31%!important;
+    }
+}
+@media (max-width:1060px) {
+    .company-name {
+        width:31%!important;
+    }
+}
+@media (max-width:1059px) {
+    .company-name {
+        width:30%!important;
+    }
+}
+@media (max-width:1059px) {
+    .company-name {
+        width:80%!important;
+    }
+    .com-info .title-info {
+        padding: 92px 0;
+    }
+    .phone {
+        width:40%;
+    }
+}
+@media (max-width:1013px) {
+    .company-name {
+        width:79%!important;
+    }
+    .com-info .title-info {
+        padding: 92px 0;
+    }
+}
+@media (max-width:991px){
+    .com-info .title-info ,.com-info .title-info,.address .title-info ,.mails .title-info,.contact .title-info {
+        padding:5px 0!important;
+        margin-bottom: 10px!important;
+    }
+    .company-name, .phone  {
+        width:100%!important;
+    }
+    label ,.contact-form label,.address-info label{
+    width:100%;
+    text-align:center;
+    }
+    .list {
+        width: 230px;
+        height: 121px;
+        margin: auto;
+    }
+    .add-logo {
+        width: 100%;
+        margin: auto;
+        float: none;
+    }
+    .left{
+        float: none!important;
+        text-align:center;
+    }   
+    .address-hom1,.address-hom {
+        width:100%;
+    }
+    .left-in {
+     float:none!important;
+    }
+}
+@media (max-width:782px)  {
+    .company-name ,.phone ,.address-hom,.address-hom1   {
+        width: 100%;
+    }
+    label,label.left.pass-w{
+        width: 100%!important;
+        text-align: center!important;
+    }
+    .e-inp{
+        width: 100%;
+    }
+}

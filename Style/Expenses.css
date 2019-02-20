@@ -1,0 +1,50 @@
+﻿select.in-tabs, .tabs input.in-tabs , textarea.form-control {
+    width:71%!important;
+}
+.mid-screen {
+    width:33%!important;
+}
+.small-a {
+    width:71px;
+}
+label {
+    width:80px!important;
+}
+@media (max-width:1193px) {
+    .tabs .title-item {
+        height:auto;
+        padding-top:5px;
+    }
+    .small-a {
+        width:33px!important;
+    }
+    .mid-screen {
+        width:36%!important;
+    }
+    textarea.form-control, select.in-tabs, .tabs input.in-tabs { 
+        width: 75%!important;
+    }
+}
+@media (max-width:991px) {
+    .mid-screen {
+       width: 41%!important;
+    }
+    .tabs input.in-tabs {
+      width:100%!important; 
+    }
+    .lab-notes {
+        top:0;
+    }
+    .b {
+        width:49%!important;
+    }
+}
+@media (max-width:767px) {
+    .mid-screen,label ,.small-a{
+        width:100%!important;
+        text-align:center;
+    }
+    .b {
+        width:49%!important;
+    }
+}

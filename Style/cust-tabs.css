@@ -1,0 +1,137 @@
+﻿.tabs-cus-Sup li.nav-item {
+    width: 100%;
+    text-align: center!important;
+}
+#general .in-tabs.list-sel {
+    width:66%!important;
+}
+.tabs-cus-Sup ul#myTab li.nav-item a {
+    padding: 40px 20px!important;
+}
+
+.tabs-cus-Sup #general .non-padding > .non-padding .two {
+    height: 223px;
+}
+
+.tabs-cus-Sup #general .non-padding > .non-padding .three {
+    height: auto;
+    padding: 5px;
+}
+
+.tabs-cus-Sup #general .non-padding > .non-padding .two-sup {
+    height: 176px;
+    padding-top: 50px;
+}
+
+.tabs-cus-Sup #notification .in-tabs, .tabs-cus-Sup #prop .in-tabs, .tabs-cus-Sup #plusprop .in-tabs {
+    width: 70%!important;
+}
+
+.tabs-cus-Sup #prop .non-padding .title-item.two {
+    height: 138px!important;
+    padding-top: 40px;
+}
+
+.tabs-cus-Sup #plusprop .title-item.one {
+    height: 128px;
+    padding-top: 27px;
+}
+
+.tabs-cus-Sup #plusprop .title-item.two {
+    height: 331px;
+    padding-top: 120px;
+}
+
+.min {
+    width: 85px;
+}
+
+.tabs-cus-Sup .btn-chk {
+    top: 4px!important;
+}
+
+@media (max-width:1193px) {
+    .tabs-cus-Sup #prop .non-padding .title-item.two , .tabs-cus-Sup #plusprop .title-item.one , .tabs-cus-Sup .main-titleitem{
+        height:auto!important;
+        padding:10px 0!important;    
+        margin-bottom:20px;
+    } 
+}
+@media (max-width:1043px) {
+  #notification .in-tabs.in-cust, #prop .in-tabs.in-cust, #plusprop .in-tabs.in-cust{
+        width:70%!important;
+    }
+}
+@media (max-width:1029px) {
+    label {
+        width:99px!important;
+    }
+
+}
+@media (max-width:1024px) {
+     .tabs-cus-Sup ul#myTab li.nav-item a {
+        padding: 5px 0!important;
+    }
+}
+@media (max-width:991px) {
+    .tabs-cus-Sup .re-chk, .tabs-cus-Sup .re-chk1 {
+        position: relative;
+        right: 0;
+    }
+    table {
+        right:44%;
+        margin-bottom:10px;
+    }
+    table td {
+        width:100px;
+    }
+        table td label {
+        width:50px!important;
+        }
+    .tabs-cus-Sup #notification .in-tabs, .tabs-cus-Sup #prop .in-tabs,  .tabs-cus-Sup #plusprop .in-tabs {
+        width: 100%!important;
+    }
+
+    .re-chk.ce-chk {
+        position: relative;
+        right: 42%;
+    }
+    label {
+        width:100%!important;
+        text-align:center
+    }
+     li.nav-item{
+        width:49%!important;
+        border:1px solid #ff6a00;
+    }
+}
+
+@media (max-width:768px) {
+    .nav-tabs:before {
+        content:'';
+    }
+    .nav-tabs {
+        background:transparent;
+        border:none;
+    }
+     li.nav-item{
+        width:48%!important;
+        display:inline-block;
+        border:1px solid #ff6a00;
+    }
+}
+.inline {
+    display:inline-block;
+}
+@media (max-width:360px) {
+     table {
+        right:20%;
+        margin-bottom:10px;
+    }
+    .p-chk {
+        display:block!important;
+            padding-right: 0px!important;
+            left: 65px;
+    position: relative;
+    }
+}

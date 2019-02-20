@@ -1,0 +1,42 @@
+﻿@media (max-width:1225px){
+    label {
+        width:89px!important;
+    }
+}
+@media (max-width:1113px){
+    label {
+        width:85px!important;
+    }
+}
+@media (max-width:1079px){
+    label {
+        width:77px!important;
+    }
+}@media (max-width:1024px){
+    .Reversing  .title-item.fir , .Reversing  .title-item.sec , .Reversing .title-item.thr{
+        height:auto!important;
+        padding:5px!important;
+        margin-bottom:10px;
+    }
+}
+@media (max-width:991px) {
+    .add-bank .item-info input.in-tabs {
+        width:100%!important;
+    }
+    label.xs-lab {
+        width:100%!important;
+        text-align:center;
+    }
+}
+@media (max-width:769px) {
+    select.in-tabs , .mid, .mid-screen  , .add-StoreTrans .item-info input.in-tabs ,label,textarea.form-control{
+        width:100%!important;
+    }
+    .lab-notes {
+        position:relative;
+        top:0
+    }
+}
+label.xs-lab {
+    width:28px;
+}
